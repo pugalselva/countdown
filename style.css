@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: linear-gradient(#27855f, #377683), url('./image/new.jpg');
+    color: white;
+    background-size: cover;
+}
+
+.counter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+p{
+    font-size: 15px;
+}
+
+.newyear{
+    font-family: cursive;
+    font-weight: 400;
+    font-size: 50px;
+    margin-top: 15px;
+
+}
+
+.box{
+    width: 50px;
+    height: 50px;
+    text-align: center;
+   
+}
+.box h2{
+    font-size: 20px;
+    font-weight: 500;
+
+}
+.box small{
+    font-size: 10px;
+}
+
+@media (min-width:576px) {
+
+    .newyear{
+
+        font-size: 100px;
+    }
+    p{
+        font-size: 19px;
+    }
+    .box h2{
+        font-size: 30px;
+    }
+    .box{
+        width: 70px;
+        height: 70px;
+    }
+    .box small{
+        font-size: 16px;
+    }
+}
+
+@media (min-width:768px) {
+
+    .newyear{
+
+        font-size: 150px;
+    }
+
+    p{
+        font-size: 26px;
+    }
+    .box h2{ 
+       font-size:50px ;
+    }
+    .box{
+        width: 110px;
+        height: 110px;
+    }
+    .box small{
+        font-size: 21px;
+    }
+}
